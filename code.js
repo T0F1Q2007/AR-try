@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         modelSection.className = 'model-section';
 
         modelSection.innerHTML = `
-            <a href="https://arvr.google.com/scene-viewer/1.0?file=${modelPath}&mode=ar_only" rel="ar" target="_blank" class="box">
+            <a href="https://arvr.google.com/scene-viewer/1.0?file=https://t0f1q2007.github.io/AR-try/${modelPath}&mode=ar_only" rel="ar" target="_blank" class="box">
                 <img src="${thumbnailPath}" alt="Model Thumbnail" class="box">
                 View in AR
             </a>
