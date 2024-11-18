@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const baseURL = "Local/models/";
     
     // List of model directories
-    const modelDirs = ["model1", "model2", "model3","model4","model5","model6","model7","model8","model9","model10","model11","model12","model13"]; // You can dynamically generate this list if needed
+    const modelDirs = ["model1", "model2", "model3","model4","model5","model6","model8","model9","model10","model11","model12","model13"]; // You can dynamically generate this list if needed
 
     modelDirs.forEach(dir => {
         const modelPath = `${baseURL}${dir}/tinker.glb`;
