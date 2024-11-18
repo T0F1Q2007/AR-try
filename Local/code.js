@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const baseURL = "models/";
 
     // List of model directories
-    const modelDirs = ["model1", "model2", "model3", "model4", "model5","model6","model7","model8","model9","model10","model11","model12","model13"];
+    const modelDirs = ["model1", "model2", "model3", "model4", "model5","model6","donut","model8","model9","model10","model11","model12","model13"];
 
     // Add an input field for IP address
     const ipInputContainer = document.createElement('div');
